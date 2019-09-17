@@ -1,0 +1,80 @@
+body{
+    background-image: url("the_men_bg.jpg");
+    background-origin: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ /*main class  */
+.reg-form{
+    margin: 120px auto 0 auto;
+}
+/* form class */
+.move-down{
+    height: 500px;
+    width: 600px;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+
+}
+.form-control{
+    width: 80%!important;
+    margin: 24px auto 0 auto;
+    border-radius: 20px!important;
+}
+li:hover{
+  border-bottom: 4px solid #FF0;
+}
+/* button */
+.button{
+    display: flex;
+    justify-content: center;
+}
+.BTN {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+.BTN:hover {
+   animation: swing 1s ease;
+   animation-iteration-count: 1;
+  }
+  /* button swing animation */
+  @keyframes swing {
+    15% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+    30% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    50% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    65% {
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+    80% {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    }
+    /* added responsiveness */
+    @media screen and (max-width: 767px) {
+        .form-control{
+            width: 80%!important;
+            margin: 24px auto 0 auto;
+            
+        }
+        .move-down{
+            width: 80%;
+            margin: 100px auto 0 auto;
+        }
+      }
