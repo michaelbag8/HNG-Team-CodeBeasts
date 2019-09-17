@@ -1,0 +1,230 @@
+*,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+
+.form {
+    background-image: url(../HNG-Team-CodeBeasts/the_men_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    text-align: center;
+    
+}
+
+.form__nav {
+    display: flex;
+    color: #fff;
+    padding-top: 4rem;
+}
+.form__heading {
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-right: 80rem;
+    padding-left: 4rem;
+    
+}
+.form__list {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+    padding-right: 2rem;
+    
+}
+.form__list-1 {
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.color {
+    color: #ffff00;
+}
+.form__details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 45rem;
+    text-align: center;
+    
+}
+.form__input {
+    border: 1.5px solid#ffff00;
+    border-radius: 20px;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    
+    
+
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 200;
+    color: black;
+    padding: 2rem 22rem 2rem 1rem;
+    
+    background-color: rgba(#f1f1f1, 1);
+    
+    width: 40%;
+    display: block;
+    transition: all .3s;
+}
+.fa {
+    margin-right: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+.fa-lock, .fa-user-o {
+    color: black;
+}
+.form__button {
+    border: 2px solid#ffff00;
+    border-radius: 20px;
+    color: black;
+    margin: 2rem;
+    
+    
+
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 300;
+    
+    padding: 2rem 1rem;
+    
+    width: 40%;
+    display: block;
+    transition: all .3s;
+    background-color: #ffff00;
+}
+.form__radio-detail {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.form__radio-label {
+    margin-right: 5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.join {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     color: #666;
+     top: 5px;
+     height: 15px;
+     width: 15px;
+     border: 2px solid#fff;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before {
+     position: absolute;
+ 
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #ffff;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+
+.input-container {
+    display: flex;
+  width: 45%;
+  margin-top: 4rem;
+  margin-bottom: 30px;
+  background-color:#f1f1f1;
+  border: 2px solid #ffff00;
+  border-radius: 20px;
+  
+  padding: 8px;
+}
+.icon {
+    padding: 10px;
+    background-color:#f1f1f1;
+    color: black;
+    border: none;
+  }
+  
+  
+.input-field {
+      font-size: 1.6rem;
+      color: black;
+      background-color:#f1f1f1;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .input-field:focus {
+    border: none;
+    outline: none;
+  }
+  
+
+  .btn {
+    border: none;
+    background-color: #ffff00;
+    border-radius: 15px;
+    color: black;
+    padding: 18px 20px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    width: 45%;
+    margin-top: 1rem;
+    margin-right: 50rem;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
