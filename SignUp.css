@@ -4,17 +4,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
- /*main class  */
+ /*main class here */
 .reg-form{
     margin: 120px auto 0 auto;
 }
-/* form class */
+/* form class here*/
 .move-down{
     height: 500px;
     width: 600px;
     background-color: rgba(225, 225, 225, 0.5);
     border-radius: 20px;
-    margin: 0 auto 0 auto;
+    margin: -60px auto 0 auto;
     border: 1px solid rgba(225, 225, 225, 0.5);
 
 }
@@ -75,6 +75,6 @@ li:hover{
         }
         .move-down{
             width: 80%;
-            margin: 100px auto 0 auto;
+            margin: 10px auto 0 auto;
         }
       }
